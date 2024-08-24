@@ -71,7 +71,12 @@ a {
   padding: 16px 32px;
   width: 169px;
   height: 56px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: #404bbf;
 }
 .main-button {
   color: #fff;
@@ -116,4 +121,33 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   color: #434455;
+}
+.portfolio {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11111;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: #2e2f42;
+}
+.portfolio-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.portfolio-item {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.header-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
