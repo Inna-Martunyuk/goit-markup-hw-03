@@ -6,6 +6,9 @@ body {
 ul,
 ol {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+
 }
 a {
   text-decoration: none;
@@ -35,6 +38,12 @@ a {
 
 .contacts {
   font-style: normal;
+  
+}
+.contacts-list {
+  display: flex;
+  gap: 40px;
+
 }
 .contacts-link {
   font-weight: 400;
@@ -151,4 +160,35 @@ h2 {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+}
+h1, h2, h3, p {
+  margin: 0;
+
+}
+
+.container { 
+max-width: 1158px;
+padding-left:  
+padding-right:  
+margin-left:  
+margin-right:  
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.nav-list {
+  display: flex;
+  gap: 40px;
+}
+.page-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.features-list {
+  display: flex;
+  gap: 24px;
 }
