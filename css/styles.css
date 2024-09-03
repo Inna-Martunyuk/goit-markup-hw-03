@@ -32,6 +32,7 @@ a {
 }
 .footer-logo {
   margin-bottom: 16px;
+  display: inline-block;
 }
 .footer-text {
   max-width: 264px;
@@ -62,7 +63,7 @@ a {
   font-style: normal;
   display: flex;
 }
-.name-container container {
+.container-header {
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -79,7 +80,7 @@ a {
 }
 .main-one {
   background-color: #2e2f42;
-  padding: 120px 0;
+  padding: 188px 0;
 }
 .main-title {
   font-weight: 700;
@@ -100,12 +101,12 @@ a {
   letter-spacing: 0.04em;
   color: #ffffff;
   display: block;
-  max-width: 169px;
   height: 56px;
   border: none;
   border-radius: 4px;
   margin-right: auto;
   margin-left: auto;
+  min-width: 169px;
 }
 
 .button:hover,
@@ -207,6 +208,7 @@ h2 {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 .portfolio-item {
   font-weight: 400;
@@ -278,6 +280,6 @@ p {
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
-.img {
+img {
   display: block;
 }
