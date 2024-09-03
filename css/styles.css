@@ -36,6 +36,11 @@ a {
 }
 .footer-text {
   max-width: 264px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 .nav-link {
   font-weight: 500;
@@ -44,6 +49,7 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
   padding: 24px 0;
+  display: block;
 }
 
 .contacts {
@@ -61,11 +67,12 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
   font-style: normal;
-  display: flex;
+  display: block;
+  padding: 24px 0;
 }
 .name-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -91,8 +98,7 @@ a {
   text-align: center;
   color: #fff;
   max-width: 496px;
-  margin: 0 auto;
-  padding-bottom: 48px;
+  margin: 0 auto 48px auto;
 }
 .button {
   background-color: #4d5ae5;
@@ -238,7 +244,6 @@ h2 {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 .header-text {
   font-weight: 400;
@@ -269,15 +274,7 @@ p {
   display: flex;
   gap: 40px;
 }
-.contacts-item {
-  padding: 24px 0;
-  align-items: center;
-}
 
-.contacts-link {
-  display: flex;
-  gap: 40px;
-}
 .page-header {
   border-bottom: 1px solid #e7e9fc;
 }
