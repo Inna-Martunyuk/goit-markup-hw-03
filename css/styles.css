@@ -63,10 +63,10 @@ a {
   font-style: normal;
   display: flex;
 }
-.name-container container {
+.name-container {
   display: flex;
-  width: 1158px;
-  padding: 0 15px;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .nav-link:hover,
