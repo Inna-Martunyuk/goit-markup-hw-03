@@ -65,9 +65,10 @@ a {
 }
 .name-container container {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
+  width: 1158px;
+  padding: 0 15px;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
